@@ -247,11 +247,12 @@ h4 {
     top:205px; 
 }
  
+ 
 @media only screen and (max-width: 480px) {
   
 
   body {
-font-size: 12px;
+  font-size: 12px;
   text-align: center;
   margin: auto;
   line-height: 2em;
@@ -269,6 +270,7 @@ font-size: 12px;
 h4 {
     position:relative;
     right:-370px;
+    font:40px;
     top:205px;
 }
 }
