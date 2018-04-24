@@ -48,8 +48,8 @@
   background-image: url("https://i.ytimg.com/vi/YlzjSydFueA/maxresdefault.jpg");
   background-size: cover;
   background-position:bottom center;
-  height:800px;
-  width:1800px;
+  height:80rem;
+  width:180%;
 }
 
 
@@ -133,17 +133,16 @@ right:-450px;
   display: grid;
   grid-template: 1fr 1fr / 1fr 1fr 1fr;
   vertical-align: center;
-  position: relative;
-  right:-490px;
-  top:70px;
+  position:relative;
+  left:35%;
+  top:50%;
 }
 
 .grid img {
     position:relative;
-    width:250px;
+    width:55%;
     height:350px;
-    padding: 50px 50px;
-    Border:;
+    
 }
 
 
@@ -178,7 +177,7 @@ right:-450px;
 
 
 p {
-  color:black;
+  color:red;
   font-size: 25px;
   width:700px;
   height:20px;
@@ -186,6 +185,7 @@ p {
   right:-755px;
   top: -50px;
   padding-bottom: 150px;
+
 
 }
 
@@ -248,29 +248,82 @@ h4 {
 }
  
  
-@media only screen and (max-width: 480px) {
-  
 
-  body {
-  font-size: 12px;
-  text-align: center;
-  margin: auto;
-  line-height: 2em;
-  width:270px;
+@media only screen and (max-width: 480px), (orientation: portrait) {
+  .page-title {
+    width: 270px;
+  }
 }
- 
+
+
+@media only screen and (min-device-width: 413px) and (max-device-width: 415px)
+{
+ h2{
+    width:110%;
+    position:relative;
+    font-size:50px;
+    font:20px;
+    left:73%;
+    top:500px;
+    color:black;
+}
+    p1  {
+  color:black;
+  text-shadow: black;
+  font-size:150px;
+  width:80%;
+  height:10em;
+  position: relative;
+  right:-75%;
+  top:-1250px;
+  padding-bottom: 150px;
+
+}
+
+#purppic{
+    width:100%;
+    height:50%;
+    position:relative;
+    right:-75%;
+    top:350px;
+    border: 4px solid black;
+}
+
  #banner {
   background-image: url("https://i.ytimg.com/vi/YlzjSydFueA/maxresdefault.jpg");
   background-size: cover;
   background-position:bottom center;
-  height:800px;
-  width:1800px;
+  height:140rem;
+  width:124rem;
 }
 
-h4 {
-    position:relative;
-    right:-370px;
-    font:40px;
-    top:205px;
+#banner .content h1 {
+  border: 3px solid white;
+  position: relative;
+  right:-5%;
+  top: 50px;
+  width: 400px;
+  margin: 0 auto;
+  font-size:50px;
 }
+
+.nav {
+  text-align: center;
+  position: relative;
+  Top:1px;
+  right:-10rem;
+}
+
+
+
+.nav a {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin: 40px 20px;
+    cursor: pointer;
+    text-decoration: blue;
+}
+
 }
